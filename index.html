@@ -1,0 +1,179 @@
+# Privacy Policy — FOHT Volunteer App
+
+**Last updated:** 8 April 2026
+
+This privacy policy describes how the FOHT Volunteer App ("the app") handles
+information about its users. The app is provided by **Friends of the Heysen
+Trail Inc.** ("FOHT", "we", "us") for use by registered volunteers carrying out
+trail maintenance and related activities on the Heysen Trail in South
+Australia.
+
+The app is intended for use by FOHT volunteers only. It is not directed at
+children or members of the general public.
+
+---
+
+## 1. What information we collect
+
+We collect only the information needed to coordinate volunteer work on the
+Heysen Trail. Specifically:
+
+### Information you provide to us
+- **Knack account credentials** (email and password) — used to log in to the
+  FOHT volunteer database. The password is stored on your device only and is
+  never transmitted to us in any form other than the standard Knack login
+  request.
+- **Phone number** — entered in the app's Settings screen. Used to identify
+  you when uploading work records and to contact you about volunteer
+  activities.
+- **Photos** — taken or selected from your gallery when you submit a
+  maintenance report or attach a receipt to an expense claim.
+- **Expense data** — receipt details, amounts, categories, and notes that you
+  enter for reimbursement claims.
+- **Maintenance reports** — text descriptions and photos of trail issues that
+  you choose to report.
+
+### Information collected automatically
+- **Location data (GPS)** — collected continuously while you have the app's
+  geofencing feature active, including when the app is in the background. We
+  use this only to:
+  - detect when you cross into and out of the trail-work zone (1 km from the
+    trail) so that work-record times can be generated automatically;
+  - record the GPS coordinates of maintenance issues, water tank readings,
+    and other assets you log;
+  - alert you when you approach a Point of Interest you have asked to be
+    notified about.
+- **Device information** — operating system version, device model, and app
+  version. This is included in diagnostic uploads (see below) so we can
+  troubleshoot problems.
+- **Activity logs** — the app records the events it performs (geofence
+  crossings, uploads, errors) in a local log buffer.
+
+### What we do NOT collect
+- We do not use any advertising networks or tracking SDKs.
+- We do not collect contacts, calendar entries, browsing history, or any
+  data from other apps on your device.
+- We do not collect data from sensors other than GPS and the camera.
+- We do not collect data when you are not using the app, except for GPS
+  location while the geofencing feature is explicitly active.
+
+---
+
+## 2. How we use this information
+
+- **Volunteer coordination** — work records, maintenance reports, expense
+  claims, and water tank readings you create are uploaded to the FOHT
+  volunteer database (Knack) and used by FOHT to manage trail maintenance,
+  reimburse volunteers, and prioritise repairs.
+- **Asset and trail management** — photos and GPS coordinates of issues,
+  campsites, water tanks, and other assets are stored to help FOHT and
+  volunteers locate and maintain them.
+- **Troubleshooting (beta only)** — during the beta-testing phase, the app
+  can upload a diagnostic snapshot to help us debug problems. The snapshot
+  contains your phone number, recent events, work records, settings (excluding
+  passwords), and the app's console log buffer. Diagnostic uploads happen
+  either when you tap the **Send Diagnostics** button in Settings, or
+  automatically after a successful work-record upload. You can stop diagnostic
+  uploads from happening automatically by avoiding work-record uploads or by
+  asking us to remove your account from the beta.
+- **No marketing** — we do not use your information for marketing, advertising,
+  or any commercial purpose.
+
+---
+
+## 3. Where information is stored
+
+Your information is stored in the following systems, all operated by us or by
+service providers we have engaged:
+
+| Where | What | Operator |
+|---|---|---|
+| Your device (encrypted) | Login credentials, session tokens, cached records | Local storage on your device only |
+| Knack | Volunteer profile, work records, activities, maintenance issues, expense claims, water tank data | Knack Inc., USA |
+| Microsoft Azure Blob Storage | Photos (maintenance reports, expense receipts) and diagnostic snapshots | Microsoft Corporation, hosted in Australia |
+| Microsoft Azure Document Intelligence | Receipt photos sent for OCR text extraction | Microsoft Corporation, hosted in Australia |
+| Myriota | Water tank sensor telemetry data (no personal data) | Myriota Pty Ltd, Australia |
+
+We do not sell, rent, or trade your information to anyone. We share it only
+with the service providers listed above, and only to the extent necessary to
+operate the app.
+
+---
+
+## 4. How long we keep it
+
+- **Work records, maintenance reports, expense claims, photos**: retained
+  indefinitely in the FOHT Knack database as part of the historical record of
+  volunteer activity on the trail.
+- **GPS event logs (on your device)**: removed automatically when you start a
+  new activity in the app, or when you uninstall the app.
+- **Diagnostic snapshots**: retained for 30 days in Azure Blob Storage and
+  then automatically deleted.
+- **Account credentials (on your device)**: retained until you log out or
+  uninstall the app.
+
+---
+
+## 5. Your rights and choices
+
+- **Access and correction**: You can view and correct your volunteer profile
+  data through the FOHT Knack portal or by contacting us.
+- **Deletion**: You can ask us to delete your account and the data
+  associated with it by contacting us at the address below. Note that
+  historical work records may be retained in anonymised form for FOHT's
+  records.
+- **Permissions on your device**: You can revoke the app's access to
+  location, camera, and notifications at any time through your device's
+  Settings app. The app's geofencing and reporting features will not work
+  without these permissions.
+- **Stop using the app**: You can uninstall the app at any time. This
+  removes all data stored locally on your device.
+
+---
+
+## 6. Security
+
+- Login credentials and authentication tokens are stored on your device using
+  encrypted secure storage (Android Keystore / iOS Keychain via
+  `expo-secure-store`).
+- All communication between the app and our service providers (Knack, Azure,
+  Myriota) is encrypted in transit using HTTPS / TLS.
+- Photos and diagnostic snapshots are uploaded directly to Azure Blob Storage
+  using time-limited signed URLs (SAS tokens).
+- No personal data is included in URLs, query strings, or unencrypted
+  channels.
+
+We take reasonable steps to protect your information, but no system is
+perfectly secure. If you become aware of a security issue with the app, please
+contact us immediately at the address below.
+
+---
+
+## 7. Children
+
+The app is not intended for use by anyone under 18 years of age. We do not
+knowingly collect personal information from children. If you believe a child
+has used the app, please contact us and we will remove their data.
+
+---
+
+## 8. Changes to this policy
+
+We may update this policy from time to time. The "Last updated" date at the
+top will reflect the most recent change. For substantive changes, we will
+notify users through the app or by email before the change takes effect.
+
+---
+
+## 9. Contact us
+
+If you have questions, concerns, or requests relating to your information,
+please contact:
+
+**Friends of the Heysen Trail Inc.**
+Email: heysentrail.asn.au
+Postal: Suite 203, Epworth Building,
+33 Pirie Street, Adelaide 5000
+
+For app-specific technical questions about data handling:
+Email: tdc@heysentrail.asn.au
